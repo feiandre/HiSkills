@@ -1,0 +1,2 @@
+display_name: "设置 Pre-Commit 钩子"
+short_description: "添加提交前质量检查"

@@ -1,0 +1,5 @@
+.downloads/
+.translation-jobs/
+.inline-translation/
+__pycache__/
+*.pyc

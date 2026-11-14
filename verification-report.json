@@ -1,0 +1,4487 @@
+{
+  "verified_at_utc": "2026-10-31T07:17:39.890790+00:00",
+  "format": "adjacent bilingual Markdown blocks",
+  "passed": true,
+  "document_count": 399,
+  "completed_jobs": 445,
+  "projects": {
+    "matt-pocock": 118,
+    "superpowers": 112,
+    "pstack": 169
+  },
+  "translated_blocks": 15245,
+  "skipped_nonlanguage_blocks": 319,
+  "structural_audit_signals": 0,
+  "frontmatter_values_checked": 120,
+  "failures": [],
+  "documents": [
+    {
+      "path": "matt-pocock/.agents/adr/0001-explicit-setup-pointer-only-for-hard-dependencies.md",
+      "source_preserved": true,
+      "translated_blocks": 6,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/.agents/adr/0002-ship-as-a-claude-code-plugin.md",
+      "source_preserved": true,
+      "translated_blocks": 31,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/.agents/install-block.md",
+      "source_preserved": true,
+      "translated_blocks": 39,
+      "skipped_blocks": [
+        {
+          "id": "67675a79dc360079",
+          "kind": "code",
+          "reason": "纯安装命令，无自然语言。"
+        },
+        {
+          "id": "c25d5da56d05131e",
+          "kind": "code",
+          "reason": "纯安装命令，无自然语言。"
+        },
+        {
+          "id": "dc0f74f5cf370db5",
+          "kind": "code",
+          "reason": "纯安装命令，无自然语言。"
+        },
+        {
+          "id": "1b831300544b2a76",
+          "kind": "code",
+          "reason": "纯JSON机器配置，无自然语言。"
+        },
+        {
+          "id": "f838323d717a8bac",
+          "kind": "code",
+          "reason": "纯安装命令，无自然语言。"
+        },
+        {
+          "id": "46603eb35a4f246a",
+          "kind": "code",
+          "reason": "纯安装命令，无自然语言。"
+        },
+        {
+          "id": "bae52ac8e02432df",
+          "kind": "code",
+          "reason": "纯更新命令，无自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/.agents/invocation.md",
+      "source_preserved": true,
+      "translated_blocks": 14,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/.agents/writing-docs.md",
+      "source_preserved": true,
+      "translated_blocks": 60,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/.changeset/README.md",
+      "source_preserved": true,
+      "translated_blocks": 3,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/.changeset/implementer-fresh-per-ticket.md",
+      "source_preserved": true,
+      "translated_blocks": 2,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/.out-of-scope/frozen-misc-skills.md",
+      "source_preserved": true,
+      "translated_blocks": 11,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/.out-of-scope/harness-name-collisions.md",
+      "source_preserved": true,
+      "translated_blocks": 15,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/.out-of-scope/lazy-load-writing-for-agents.md",
+      "source_preserved": true,
+      "translated_blocks": 6,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/.out-of-scope/mainstream-issue-trackers-only.md",
+      "source_preserved": true,
+      "translated_blocks": 14,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/.out-of-scope/native-question-tool.md",
+      "source_preserved": true,
+      "translated_blocks": 12,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/.out-of-scope/new-skills.md",
+      "source_preserved": true,
+      "translated_blocks": 13,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/.out-of-scope/question-limits.md",
+      "source_preserved": true,
+      "translated_blocks": 10,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/.out-of-scope/setup-skill-verify-mode.md",
+      "source_preserved": true,
+      "translated_blocks": 8,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/.out-of-scope/subagent-recursion.md",
+      "source_preserved": true,
+      "translated_blocks": 8,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/AGENTS.md",
+      "source_preserved": true,
+      "translated_blocks": 1,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/CHANGELOG.md",
+      "source_preserved": true,
+      "translated_blocks": 195,
+      "skipped_blocks": [
+        {
+          "id": "cfe4f61ec1f5e6b6",
+          "kind": "code",
+          "reason": "此块只含安装命令及代码围栏，没有待翻译的英语自然语言。"
+        },
+        {
+          "id": "b22a04f5713432ad",
+          "kind": "code",
+          "reason": "此块只含插件安装命令及代码围栏，没有待翻译的英语自然语言。"
+        },
+        {
+          "id": "74446518e49476da",
+          "kind": "list",
+          "reason": "仅为技能标识 edit-article，无自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/CLAUDE.md",
+      "source_preserved": true,
+      "translated_blocks": 19,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/CONTRIBUTING.md",
+      "source_preserved": true,
+      "translated_blocks": 12,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/GLOSSARY.md",
+      "source_preserved": true,
+      "translated_blocks": 14,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/README.md",
+      "source_preserved": true,
+      "translated_blocks": 113,
+      "skipped_blocks": [
+        {
+          "id": "afa35a549d840bb0",
+          "kind": "code",
+          "reason": "纯安装命令及机器标识，没有自然语言。"
+        },
+        {
+          "id": "d04ab378eb24b366",
+          "kind": "code",
+          "reason": "纯安装命令及机器标识，没有自然语言。"
+        },
+        {
+          "id": "03b93c4bd44b7ae6",
+          "kind": "code",
+          "reason": "纯安装命令及机器标识，没有自然语言。"
+        },
+        {
+          "id": "a809f72a5ac5a93f",
+          "kind": "code",
+          "reason": "纯 JSON 配置和机器标识，没有自然语言。"
+        },
+        {
+          "id": "22b6eb00139116f4",
+          "kind": "code",
+          "reason": "纯安装命令及路径，没有自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/SCOPE.md",
+      "source_preserved": true,
+      "translated_blocks": 23,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/agents/triage-labels.md",
+      "source_preserved": true,
+      "translated_blocks": 5,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/ask-matt.md",
+      "source_preserved": true,
+      "translated_blocks": 44,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/code-review.md",
+      "source_preserved": true,
+      "translated_blocks": 51,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/codebase-design.md",
+      "source_preserved": true,
+      "translated_blocks": 41,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/diagnosing-bugs.md",
+      "source_preserved": true,
+      "translated_blocks": 44,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/domain-modeling.md",
+      "source_preserved": true,
+      "translated_blocks": 37,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/grill-with-docs.md",
+      "source_preserved": true,
+      "translated_blocks": 33,
+      "skipped_blocks": [
+        {
+          "id": "eaaeae17a61ea9f8",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/implement-spec.md",
+      "source_preserved": true,
+      "translated_blocks": 44,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/implement.md",
+      "source_preserved": true,
+      "translated_blocks": 47,
+      "skipped_blocks": [
+        {
+          "id": "dd93c8d2d68a0afe",
+          "kind": "code",
+          "reason": "代码块仅含工作流标识链，没有英语自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/improve-codebase-architecture.md",
+      "source_preserved": true,
+      "translated_blocks": 58,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/pr.md",
+      "source_preserved": true,
+      "translated_blocks": 41,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/prototype.md",
+      "source_preserved": true,
+      "translated_blocks": 34,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/research.md",
+      "source_preserved": true,
+      "translated_blocks": 36,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/resolving-merge-conflicts.md",
+      "source_preserved": true,
+      "translated_blocks": 27,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/retro.md",
+      "source_preserved": true,
+      "translated_blocks": 38,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/setup-matt-pocock-skills.md",
+      "source_preserved": true,
+      "translated_blocks": 43,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/tdd.md",
+      "source_preserved": true,
+      "translated_blocks": 43,
+      "skipped_blocks": [
+        {
+          "id": "2825053ecde9ee22",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/to-spec.md",
+      "source_preserved": true,
+      "translated_blocks": 34,
+      "skipped_blocks": [
+        {
+          "id": "983e1a2a27c7e811",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/to-tickets.md",
+      "source_preserved": true,
+      "translated_blocks": 44,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/triage.md",
+      "source_preserved": true,
+      "translated_blocks": 48,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/wayfinder.md",
+      "source_preserved": true,
+      "translated_blocks": 46,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/engineering/wizard.md",
+      "source_preserved": true,
+      "translated_blocks": 44,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/productivity/grill-me.md",
+      "source_preserved": true,
+      "translated_blocks": 37,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/productivity/grilling.md",
+      "source_preserved": true,
+      "translated_blocks": 37,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/productivity/handoff.md",
+      "source_preserved": true,
+      "translated_blocks": 34,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/productivity/teach.md",
+      "source_preserved": true,
+      "translated_blocks": 41,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/productivity/to-questionnaire.md",
+      "source_preserved": true,
+      "translated_blocks": 38,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/productivity/wait-what.md",
+      "source_preserved": true,
+      "translated_blocks": 20,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/docs/productivity/writing-for-agents.md",
+      "source_preserved": true,
+      "translated_blocks": 35,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/deprecated/README.md",
+      "source_preserved": true,
+      "translated_blocks": 2,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/README.md",
+      "source_preserved": true,
+      "translated_blocks": 26,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/ask-matt/PHASE-BOUNDARIES.md",
+      "source_preserved": true,
+      "translated_blocks": 25,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/ask-matt/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 58,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/code-review/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 54,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/codebase-design/DEEPENING.md",
+      "source_preserved": true,
+      "translated_blocks": 21,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/codebase-design/DESIGN-IT-TWICE.md",
+      "source_preserved": true,
+      "translated_blocks": 27,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/codebase-design/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 47,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/diagnosing-bugs/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 81,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "source_preserved": true,
+      "translated_blocks": 27,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/domain-modeling/GLOSSARY-FORMAT.md",
+      "source_preserved": true,
+      "translated_blocks": 17,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/domain-modeling/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 25,
+      "skipped_blocks": [
+        {
+          "id": "fa6101ff90484d63",
+          "kind": "code",
+          "reason": "该块仅含代码，没有英语自然语言。"
+        },
+        {
+          "id": "74db96db3adc4cb0",
+          "kind": "code",
+          "reason": "该块仅含代码，没有英语自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/grill-with-docs/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 2,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/implement-spec/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 21,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/implement/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 7,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "source_preserved": true,
+      "translated_blocks": 49,
+      "skipped_blocks": [
+        {
+          "id": "502e95e4941d3c59",
+          "kind": "code",
+          "reason": "代码围栏仅含 Mermaid 图结构，没有英语自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 41,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/pr/CREDITS.md",
+      "source_preserved": true,
+      "translated_blocks": 2,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/pr/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 31,
+      "skipped_blocks": [
+        {
+          "id": "878eb65db01a1e76",
+          "kind": "code",
+          "reason": "代码围栏仅含调用树、组件树、图示或差异结构，没有需要翻译的自然语言说明。"
+        },
+        {
+          "id": "719bab2bd0038d65",
+          "kind": "code",
+          "reason": "代码围栏仅含调用树、组件树、图示或差异结构，没有需要翻译的自然语言说明。"
+        },
+        {
+          "id": "602c415381dfa5f3",
+          "kind": "code",
+          "reason": "代码围栏仅含调用树、组件树、图示或差异结构，没有需要翻译的自然语言说明。"
+        },
+        {
+          "id": "dd14464cf80d7731",
+          "kind": "code",
+          "reason": "代码围栏仅含调用树、组件树、图示或差异结构，没有需要翻译的自然语言说明。"
+        },
+        {
+          "id": "4cb3e0b20c3703f5",
+          "kind": "code",
+          "reason": "代码围栏仅含调用树、组件树、图示或差异结构，没有需要翻译的自然语言说明。"
+        },
+        {
+          "id": "a605f964f8b844ff",
+          "kind": "code",
+          "reason": "代码围栏仅含调用树、组件树、图示或差异结构，没有需要翻译的自然语言说明。"
+        },
+        {
+          "id": "7355f02ac4d28ade",
+          "kind": "code",
+          "reason": "代码围栏仅含调用树、组件树、图示或差异结构，没有需要翻译的自然语言说明。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/prototype/LOGIC.md",
+      "source_preserved": true,
+      "translated_blocks": 41,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/prototype/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 15,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/prototype/UI.md",
+      "source_preserved": true,
+      "translated_blocks": 58,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/research/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 6,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/retro/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 25,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 61,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/setup-matt-pocock-skills/domain.md",
+      "source_preserved": true,
+      "translated_blocks": 18,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "source_preserved": true,
+      "translated_blocks": 33,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/setup-matt-pocock-skills/issue-tracker-gitlab.md",
+      "source_preserved": true,
+      "translated_blocks": 30,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "source_preserved": true,
+      "translated_blocks": 20,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/setup-matt-pocock-skills/triage-labels.md",
+      "source_preserved": true,
+      "translated_blocks": 5,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/tdd/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 20,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/tdd/mocking.md",
+      "source_preserved": true,
+      "translated_blocks": 23,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/tdd/tests.md",
+      "source_preserved": true,
+      "translated_blocks": 23,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/to-spec/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 40,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/to-tickets/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 50,
+      "skipped_blocks": [
+        {
+          "id": "eacfab1902560fcf",
+          "kind": "paragraph",
+          "reason": "仅为 HTML/XML 结构标签，无自然语言。"
+        },
+        {
+          "id": "5069dbf8073efbb7",
+          "kind": "paragraph",
+          "reason": "仅为 HTML/XML 结构标签，无自然语言。"
+        },
+        {
+          "id": "c65ea57b84ffd03d",
+          "kind": "paragraph",
+          "reason": "仅为 HTML/XML 结构标签，无自然语言。"
+        },
+        {
+          "id": "411b2164c7a6401c",
+          "kind": "paragraph",
+          "reason": "仅为 HTML/XML 结构标签，无自然语言。"
+        },
+        {
+          "id": "319bf041e89736d5",
+          "kind": "paragraph",
+          "reason": "仅为 HTML/XML 结构标签，无自然语言。"
+        },
+        {
+          "id": "2962acdbfc159b1f",
+          "kind": "paragraph",
+          "reason": "仅为 HTML/XML 结构标签，无自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/triage/AGENT-BRIEF.md",
+      "source_preserved": true,
+      "translated_blocks": 42,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "source_preserved": true,
+      "translated_blocks": 14,
+      "skipped_blocks": [
+        {
+          "id": "4639d9f90defee9e",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/triage/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 57,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/wayfinder/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 56,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/engineering/wizard/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 23,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/in-progress/README.md",
+      "source_preserved": true,
+      "translated_blocks": 10,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/in-progress/chief-of-staff/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 39,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/in-progress/claude-handoff/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 7,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/in-progress/loop-me/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 16,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/in-progress/setup-ts-deep-modules/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 53,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/in-progress/writing-beats/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 33,
+      "skipped_blocks": [
+        {
+          "id": "d20563505d9aa2be",
+          "kind": "paragraph",
+          "reason": "纯 HTML 标签，没有需要翻译的自然语言。"
+        },
+        {
+          "id": "07870892e8dbbc93",
+          "kind": "paragraph",
+          "reason": "纯 HTML 标签，没有需要翻译的自然语言。"
+        },
+        {
+          "id": "63887006f55443a3",
+          "kind": "paragraph",
+          "reason": "纯 HTML 标签，没有需要翻译的自然语言。"
+        },
+        {
+          "id": "17ca5fd1eb4c0998",
+          "kind": "paragraph",
+          "reason": "纯 HTML 标签，没有需要翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/in-progress/writing-fragments/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 26,
+      "skipped_blocks": [
+        {
+          "id": "87ac06ac2c2b37aa",
+          "kind": "paragraph",
+          "reason": "纯 HTML 结构标签，没有需要翻译的自然语言。"
+        },
+        {
+          "id": "4039e12effc5d95f",
+          "kind": "paragraph",
+          "reason": "纯 HTML 结构标签，没有需要翻译的自然语言。"
+        },
+        {
+          "id": "b89345253397a227",
+          "kind": "paragraph",
+          "reason": "纯 HTML 结构标签，没有需要翻译的自然语言。"
+        },
+        {
+          "id": "5dc28ae0c430448b",
+          "kind": "paragraph",
+          "reason": "纯 HTML 结构标签，没有需要翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/in-progress/writing-shape/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 42,
+      "skipped_blocks": [
+        {
+          "id": "f9f35645b87aba6b",
+          "kind": "paragraph",
+          "reason": "仅为 HTML/XML 结构标签，无自然语言。"
+        },
+        {
+          "id": "0930b7efb4f5789f",
+          "kind": "paragraph",
+          "reason": "仅为 HTML/XML 结构标签，无自然语言。"
+        },
+        {
+          "id": "348f18a0163ee5f5",
+          "kind": "paragraph",
+          "reason": "仅为 HTML/XML 结构标签，无自然语言。"
+        },
+        {
+          "id": "9199ac63e6e9f42f",
+          "kind": "paragraph",
+          "reason": "仅为 HTML/XML 结构标签，无自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/misc/README.md",
+      "source_preserved": true,
+      "translated_blocks": 6,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 25,
+      "skipped_blocks": [
+        {
+          "id": "0f9356886a0d7ceb",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "c14868fe7f37cfea",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "0794b7c142adf4de",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "926ca9c6192f6108",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "bc26321490cc7b5c",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "f6a2518f018a1323",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "bf1b56354e44b70b",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 36,
+      "skipped_blocks": [
+        {
+          "id": "b33cc018a9607349",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "03bdc2db5c88887e",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "4fb9383359616afd",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "b566ab81e02121a1",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "344909a30e21c4bb",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/misc/scaffold-exercises/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 46,
+      "skipped_blocks": [
+        {
+          "id": "b04c077898a5d245",
+          "kind": "code",
+          "reason": "纯命令、路径或机器标识，无自然语言。"
+        },
+        {
+          "id": "43bc4f56494a1865",
+          "kind": "code",
+          "reason": "纯命令、路径或机器标识，无自然语言。"
+        },
+        {
+          "id": "f38fe0bbd4a96094",
+          "kind": "code",
+          "reason": "纯命令、路径或机器标识，无自然语言。"
+        },
+        {
+          "id": "8c9fd64bbb9e60a5",
+          "kind": "code",
+          "reason": "纯命令、路径或机器标识，无自然语言。"
+        },
+        {
+          "id": "abaf28912f175c95",
+          "kind": "code",
+          "reason": "纯命令、路径或机器标识，无自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/misc/setup-pre-commit/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 33,
+      "skipped_blocks": [
+        {
+          "id": "3c1cd3c002b4597a",
+          "kind": "code",
+          "reason": "仅含可执行命令、配置键值或机器标识，无英文自然语言。"
+        },
+        {
+          "id": "d8eb80a844e0f587",
+          "kind": "code",
+          "reason": "仅含可执行命令、配置键值或机器标识，无英文自然语言。"
+        },
+        {
+          "id": "df9b76c993324d33",
+          "kind": "code",
+          "reason": "仅含可执行命令、配置键值或机器标识，无英文自然语言。"
+        },
+        {
+          "id": "1289421e55000e5a",
+          "kind": "code",
+          "reason": "仅含可执行命令、配置键值或机器标识，无英文自然语言。"
+        },
+        {
+          "id": "93136ff457a5a35c",
+          "kind": "code",
+          "reason": "仅含可执行命令、配置键值或机器标识，无英文自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/productivity/README.md",
+      "source_preserved": true,
+      "translated_blocks": 13,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/productivity/grill-me/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 2,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/productivity/grilling/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 9,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/productivity/handoff/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 6,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/productivity/teach/GLOSSARY-FORMAT.md",
+      "source_preserved": true,
+      "translated_blocks": 12,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "source_preserved": true,
+      "translated_blocks": 25,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/productivity/teach/MISSION-FORMAT.md",
+      "source_preserved": true,
+      "translated_blocks": 10,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/productivity/teach/RESOURCES-FORMAT.md",
+      "source_preserved": true,
+      "translated_blocks": 11,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/productivity/teach/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 77,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/productivity/to-questionnaire/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 19,
+      "skipped_blocks": [
+        {
+          "id": "8ab50aa63becd356",
+          "kind": "paragraph",
+          "reason": "该块仅含结构标签或占位符，没有英语自然语言。"
+        },
+        {
+          "id": "18803ada3a2b82ce",
+          "kind": "heading",
+          "reason": "该块仅含结构标签或占位符，没有英语自然语言。"
+        },
+        {
+          "id": "19d23b02a46ac700",
+          "kind": "heading",
+          "reason": "该块仅含结构标签或占位符，没有英语自然语言。"
+        },
+        {
+          "id": "c023a6baf1bb4c84",
+          "kind": "paragraph",
+          "reason": "该块仅含结构标签或占位符，没有英语自然语言。"
+        },
+        {
+          "id": "1a442d9fa75afbe5",
+          "kind": "paragraph",
+          "reason": "该块仅含结构标签或占位符，没有英语自然语言。"
+        },
+        {
+          "id": "4aa24f48837dc4ae",
+          "kind": "paragraph",
+          "reason": "该块仅含结构标签或占位符，没有英语自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/productivity/wait-what/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 2,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/productivity/writing-for-agents/SKILL-MECHANICS.md",
+      "source_preserved": true,
+      "translated_blocks": 12,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "matt-pocock/skills/productivity/writing-for-agents/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 45,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/.github/ISSUE_TEMPLATE/bug_report.md",
+      "source_preserved": true,
+      "translated_blocks": 24,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/.github/ISSUE_TEMPLATE/feature_request.md",
+      "source_preserved": true,
+      "translated_blocks": 21,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/.github/ISSUE_TEMPLATE/platform_support.md",
+      "source_preserved": true,
+      "translated_blocks": 16,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/.github/PULL_REQUEST_TEMPLATE.md",
+      "source_preserved": true,
+      "translated_blocks": 64,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/.opencode/INSTALL.md",
+      "source_preserved": true,
+      "translated_blocks": 60,
+      "skipped_blocks": [
+        {
+          "id": "7078bb93b3e58eca",
+          "kind": "code",
+          "reason": "代码块仅含配置、路径或可执行命令，没有英语自然语言。"
+        },
+        {
+          "id": "c5f212fe94376dba",
+          "kind": "code",
+          "reason": "代码块仅含配置、路径或可执行命令，没有英语自然语言。"
+        },
+        {
+          "id": "60ff1a99f1fe0b86",
+          "kind": "code",
+          "reason": "代码块仅含配置、路径或可执行命令，没有英语自然语言。"
+        },
+        {
+          "id": "6efb42cfed7de391",
+          "kind": "code",
+          "reason": "代码块仅含配置、路径或可执行命令，没有英语自然语言。"
+        },
+        {
+          "id": "a28dfc52a2063f15",
+          "kind": "code",
+          "reason": "代码块仅含配置、路径或可执行命令，没有英语自然语言。"
+        },
+        {
+          "id": "bc68ce6e1f568bf5",
+          "kind": "code",
+          "reason": "代码块仅含配置、路径或可执行命令，没有英语自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/AGENTS.md",
+      "source_preserved": true,
+      "translated_blocks": 68,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/CODE_OF_CONDUCT.md",
+      "source_preserved": true,
+      "translated_blocks": 89,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/GEMINI.md",
+      "source_preserved": true,
+      "translated_blocks": 1,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/README.md",
+      "source_preserved": true,
+      "translated_blocks": 168,
+      "skipped_blocks": [
+        {
+          "id": "2e2455cb1721737c",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "a42097b93d66bb1b",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "6043f926012fb43c",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "1ab9a3ae64dfcab7",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "f87d665d1ccc589d",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "d7524ac9cd423f3d",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "76337f5c1b156ac9",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "5eafd8a1cb713572",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "12e4511767c24575",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "91584e99d3903121",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "33ec2c722ccd98be",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "1d09e68f9e2ee768",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "192c67fd2c94a1ab",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "d26e3974918a450f",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "23cebb78cf432662",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "982e2a56007a9f26",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "98cf9c24d231768b",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "930b2f90b5b87fd7",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "03bcd711df74790f",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "11dd236edabcdf68",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "20ece66772d34c34",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "f9dbbadce30ac89f",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "bd4fd8c9cc06a4f9",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "0ba42a6b4d71fbfc",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "fa5e62ca8872ab01",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "168e50db86f41087",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        },
+        {
+          "id": "07b8bf57295c8c2e",
+          "kind": "code",
+          "reason": "仅为安装、更新或启动命令及机器标识，无英文自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/RELEASE-NOTES.md",
+      "source_preserved": true,
+      "translated_blocks": 933,
+      "skipped_blocks": [
+        {
+          "id": "fea6bc85c6b4f027",
+          "kind": "code",
+          "reason": "纯备份命令，无自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/README.kimi.md",
+      "source_preserved": true,
+      "translated_blocks": 42,
+      "skipped_blocks": [
+        {
+          "id": "e93b0f9e3e84f483",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "2e079702f6e213b4",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "625c5845c56d1ce6",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "161ffc00e9916dd4",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "6afa7272e291a284",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/README.opencode.md",
+      "source_preserved": true,
+      "translated_blocks": 85,
+      "skipped_blocks": [
+        {
+          "id": "1ae787c722ec0edc",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "373fcf718fe84377",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "a9cff35e42a79112",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "237e29c100e480fd",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "654947a140b36b5f",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "06a51d25812027db",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "6c267a14a5ae1c37",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "53ca896a14be5660",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "50d0d7762d6ce624",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "b1922eafda9c872d",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "a97a6f3898830165",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/plans/2025-11-22-opencode-support-design.md",
+      "source_preserved": true,
+      "translated_blocks": 119,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/plans/2025-11-22-opencode-support-implementation.md",
+      "source_preserved": true,
+      "translated_blocks": 260,
+      "skipped_blocks": [
+        {
+          "id": "f6c6b4349d926845",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "b49b1faaf619f779",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "ba1ac1b91d4757ab",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "e98af5db1654d5ec",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "5d0cb5906d072c63",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "afca886805ad8b4d",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "6e4615216eb0b294",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "4b22094e59a9abe1",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "2fa2916bb7693e31",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "8c60424055b1f968",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "489c4bf8750174b9",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "d10a9e63de831ec7",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "b02c4f38ccf70eec",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "3ea96db19ba5d2bc",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "2811999e1d5e5a5c",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/plans/2025-11-28-skills-improvements-from-user-feedback.md",
+      "source_preserved": true,
+      "translated_blocks": 280,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/plans/2026-01-17-visual-brainstorming.md",
+      "source_preserved": true,
+      "translated_blocks": 90,
+      "skipped_blocks": [
+        {
+          "id": "80bd674c03481452",
+          "kind": "code",
+          "reason": "此块仅包含可执行命令、路径或机器标识，无需翻译的英语自然语言。"
+        },
+        {
+          "id": "310c2b3ba341869d",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/porting-to-a-new-harness.md",
+      "source_preserved": true,
+      "translated_blocks": 186,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-01-22-document-review-system-design.md",
+      "source_preserved": true,
+      "translated_blocks": 65,
+      "skipped_blocks": [
+        {
+          "id": "a45692331c3aa79f",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "f8a67e79e51633e0",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "82ddadc29a3fb8bd",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "005fe547edfd5f59",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-02-19-visual-brainstorming-refactor-design.md",
+      "source_preserved": true,
+      "translated_blocks": 103,
+      "skipped_blocks": [
+        {
+          "id": "72e7749f02ae5a3b",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "65fd3ee2402d9a02",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-03-11-zero-dep-brainstorm-server-design.md",
+      "source_preserved": true,
+      "translated_blocks": 72,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-03-23-codex-app-compatibility-design.md",
+      "source_preserved": true,
+      "translated_blocks": 102,
+      "skipped_blocks": [
+        {
+          "id": "f306a7398448a609",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "9acfe01d6a218de6",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-04-06-worktree-rototill-design.md",
+      "source_preserved": true,
+      "translated_blocks": 146,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-05-05-platform-neutral-config-refs-design.md",
+      "source_preserved": true,
+      "translated_blocks": 46,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-05-05-platform-neutral-prose-design.md",
+      "source_preserved": true,
+      "translated_blocks": 56,
+      "skipped_blocks": [
+        {
+          "id": "4e81235d87022676",
+          "kind": "list",
+          "reason": "列表项仅为文件路径，无自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-05-05-platform-neutral-readme-design.md",
+      "source_preserved": true,
+      "translated_blocks": 22,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-05-06-lift-drill-into-evals-design.md",
+      "source_preserved": true,
+      "translated_blocks": 62,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-06-09-sdd-task-scoped-review-dispatch-design.md",
+      "source_preserved": true,
+      "translated_blocks": 67,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-06-10-positive-instruction-redesign-design.md",
+      "source_preserved": true,
+      "translated_blocks": 53,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-06-10-strict-cost-sdd-design.md",
+      "source_preserved": true,
+      "translated_blocks": 49,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-06-10-visual-companion-auth-hardening-design.md",
+      "source_preserved": true,
+      "translated_blocks": 102,
+      "skipped_blocks": [
+        {
+          "id": "ad46994f6925f0f5",
+          "kind": "code",
+          "reason": "此代码块仅包含协议、URL或响应头标识，没有需要翻译的英语自然语言。"
+        },
+        {
+          "id": "d4dbd2bbdb9d7ecf",
+          "kind": "code",
+          "reason": "此代码块仅包含协议、URL或响应头标识，没有需要翻译的英语自然语言。"
+        },
+        {
+          "id": "578e9b896d8b542f",
+          "kind": "code",
+          "reason": "此代码块仅包含协议、URL或响应头标识，没有需要翻译的英语自然语言。"
+        },
+        {
+          "id": "c1dd5191ee688eb4",
+          "kind": "code",
+          "reason": "此代码块仅包含协议、URL或响应头标识，没有需要翻译的英语自然语言。"
+        },
+        {
+          "id": "87c7f2f30c7f939b",
+          "kind": "code",
+          "reason": "此代码块仅包含协议、URL或响应头标识，没有需要翻译的英语自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-06-11-visual-companion-final-hardening-fixup-design.md",
+      "source_preserved": true,
+      "translated_blocks": 113,
+      "skipped_blocks": [
+        {
+          "id": "0cf48ee6fc8c92be",
+          "kind": "code",
+          "reason": "代码块仅含启动命令和参数，没有英语自然语言。"
+        },
+        {
+          "id": "567653a8d03437a6",
+          "kind": "list",
+          "reason": "列表项只有 Git 变基命令，没有英语自然语言。"
+        },
+        {
+          "id": "cc36bc0a7cd3e836",
+          "kind": "list",
+          "reason": "列表项只有 Git 差异检查命令，没有英语自然语言。"
+        },
+        {
+          "id": "1942f8b80c4fdafd",
+          "kind": "list",
+          "reason": "列表项只有 GitHub PR 查询命令，没有英语自然语言。"
+        },
+        {
+          "id": "444a6e1c46281948",
+          "kind": "list",
+          "reason": "列表项只有测试命令，没有英语自然语言。"
+        },
+        {
+          "id": "0fc92dc227b2f6fe",
+          "kind": "list",
+          "reason": "列表项只有 Git 空白检查命令，没有英语自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-07-06-sdd-plan-scoped-workspace-eval-results.md",
+      "source_preserved": true,
+      "translated_blocks": 54,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-07-06-sdd-plan-scoped-workspace.md",
+      "source_preserved": true,
+      "translated_blocks": 58,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-07-15-sdd-fix-loop-redesign-design.md",
+      "source_preserved": true,
+      "translated_blocks": 63,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-07-30-codex-efficiency-fixes-design.md",
+      "source_preserved": true,
+      "translated_blocks": 83,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-08-05-hermes-version-bump-wiring-design.md",
+      "source_preserved": true,
+      "translated_blocks": 23,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-08-27-diagnosing-superpowers-design.md",
+      "source_preserved": true,
+      "translated_blocks": 145,
+      "skipped_blocks": [
+        {
+          "id": "260ea7b24c2371b6",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "e24a1c29c6803226",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "69497c1a430d8474",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-10-05-brainstorming-rebuild-design.md",
+      "source_preserved": true,
+      "translated_blocks": 66,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/superpowers/specs/2026-10-06-antigravity-marketplace-design.md",
+      "source_preserved": true,
+      "translated_blocks": 61,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/testing.md",
+      "source_preserved": true,
+      "translated_blocks": 20,
+      "skipped_blocks": [
+        {
+          "id": "629274d551b48444",
+          "kind": "code",
+          "reason": "仅含可执行安装与运行命令，无英文自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/docs/windows/polyglot-hooks.md",
+      "source_preserved": true,
+      "translated_blocks": 59,
+      "skipped_blocks": [
+        {
+          "id": "758acc61dec85aed",
+          "kind": "code",
+          "reason": "此代码块仅包含 JSON 配置和机器标识，没有需要翻译的英语自然语言。"
+        },
+        {
+          "id": "8a5bdbb004e06a7d",
+          "kind": "code",
+          "reason": "此代码块仅包含可执行 bash 代码，没有英语自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/brainstorming/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 84,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/brainstorming/builder-check-prompt.md",
+      "source_preserved": true,
+      "translated_blocks": 3,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/brainstorming/visual-companion.md",
+      "source_preserved": true,
+      "translated_blocks": 109,
+      "skipped_blocks": [
+        {
+          "id": "02e41b256a1267ba",
+          "kind": "code",
+          "reason": "此代码块只包含服务器启动命令、参数和路径，没有英语自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 27,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/prompts/analyst-common.md",
+      "source_preserved": true,
+      "translated_blocks": 9,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/prompts/cost-and-time.md",
+      "source_preserved": true,
+      "translated_blocks": 9,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/prompts/plan-adherence.md",
+      "source_preserved": true,
+      "translated_blocks": 12,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/prompts/quality-evidence.md",
+      "source_preserved": true,
+      "translated_blocks": 8,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/prompts/repeated-work.md",
+      "source_preserved": true,
+      "translated_blocks": 9,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/prompts/request-conflicts.md",
+      "source_preserved": true,
+      "translated_blocks": 9,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/prompts/scrub-audit.md",
+      "source_preserved": true,
+      "translated_blocks": 10,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/prompts/scrub.md",
+      "source_preserved": true,
+      "translated_blocks": 12,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/prompts/similar-session.md",
+      "source_preserved": true,
+      "translated_blocks": 12,
+      "skipped_blocks": [
+        {
+          "id": "5d2b64a9346aa6c9",
+          "kind": "list",
+          "reason": "列表项仅含机器标记语法和占位符，没有英语自然语言。"
+        },
+        {
+          "id": "2d628d42c4f78b57",
+          "kind": "list",
+          "reason": "列表项仅含机器标记语法和占位符，没有英语自然语言。"
+        },
+        {
+          "id": "f5fdf0ee6bc2fdbc",
+          "kind": "list",
+          "reason": "列表项仅含机器标记语法和占位符，没有英语自然语言。"
+        },
+        {
+          "id": "07f35a36fdaeef45",
+          "kind": "list",
+          "reason": "列表项仅含机器标记语法和占位符，没有英语自然语言。"
+        },
+        {
+          "id": "1b1caa4e94fbab98",
+          "kind": "list",
+          "reason": "列表项仅含机器标记语法和占位符，没有英语自然语言。"
+        },
+        {
+          "id": "56a085e515539cbc",
+          "kind": "list",
+          "reason": "列表项仅含机器标记语法和占位符，没有英语自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/prompts/skill-timeline.md",
+      "source_preserved": true,
+      "translated_blocks": 12,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/prompts/stumbles.md",
+      "source_preserved": true,
+      "translated_blocks": 12,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/references/context-safety.md",
+      "source_preserved": true,
+      "translated_blocks": 7,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/references/github-issues.md",
+      "source_preserved": true,
+      "translated_blocks": 10,
+      "skipped_blocks": [
+        {
+          "id": "8076a44922b9885b",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "d282e3f53db3a539",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "3b628de80e7bc90b",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "5fbb1b681bc65d80",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/references/redaction-policy.md",
+      "source_preserved": true,
+      "translated_blocks": 7,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/references/session-discovery.md",
+      "source_preserved": true,
+      "translated_blocks": 7,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/templates/bundle-README.md",
+      "source_preserved": true,
+      "translated_blocks": 26,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/templates/case.md",
+      "source_preserved": true,
+      "translated_blocks": 34,
+      "skipped_blocks": [
+        {
+          "id": "f875d9615d799c25",
+          "kind": "paragraph",
+          "reason": "该块仅由必须保持原样的 HTML 占位符构成，没有可改写的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/templates/issue.md",
+      "source_preserved": true,
+      "translated_blocks": 26,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/diagnosing-superpowers/templates/report.md",
+      "source_preserved": true,
+      "translated_blocks": 43,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/dispatching-parallel-agents/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 73,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/executing-plans/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 67,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/finishing-a-development-branch/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 51,
+      "skipped_blocks": [
+        {
+          "id": "f41089e95596d787",
+          "kind": "code",
+          "reason": "纯命令、路径或机器标识，无自然语言。"
+        },
+        {
+          "id": "e0426760c68e6605",
+          "kind": "code",
+          "reason": "纯命令、路径或机器标识，无自然语言。"
+        },
+        {
+          "id": "658cbba52a54e592",
+          "kind": "code",
+          "reason": "纯命令、路径或机器标识，无自然语言。"
+        },
+        {
+          "id": "207304995110249d",
+          "kind": "code",
+          "reason": "纯命令、路径或机器标识，无自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/receiving-code-review/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 71,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/requesting-code-review/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 43,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/requesting-code-review/code-reviewer.md",
+      "source_preserved": true,
+      "translated_blocks": 95,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/subagent-driven-development/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 81,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/subagent-driven-development/implementer-prompt.md",
+      "source_preserved": true,
+      "translated_blocks": 3,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/subagent-driven-development/re-review-prompt.md",
+      "source_preserved": true,
+      "translated_blocks": 13,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/subagent-driven-development/references/batching.md",
+      "source_preserved": true,
+      "translated_blocks": 3,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/subagent-driven-development/references/cannot-verify.md",
+      "source_preserved": true,
+      "translated_blocks": 3,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/subagent-driven-development/references/final-review.md",
+      "source_preserved": true,
+      "translated_blocks": 8,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/subagent-driven-development/references/fix-loop.md",
+      "source_preserved": true,
+      "translated_blocks": 16,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/subagent-driven-development/references/handling-reports.md",
+      "source_preserved": true,
+      "translated_blocks": 10,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/subagent-driven-development/references/preflight.md",
+      "source_preserved": true,
+      "translated_blocks": 7,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/subagent-driven-development/references/resuming.md",
+      "source_preserved": true,
+      "translated_blocks": 3,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/subagent-driven-development/task-reviewer-prompt.md",
+      "source_preserved": true,
+      "translated_blocks": 13,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/systematic-debugging/CREATION-LOG.md",
+      "source_preserved": true,
+      "translated_blocks": 84,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/systematic-debugging/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 170,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/systematic-debugging/condition-based-waiting.md",
+      "source_preserved": true,
+      "translated_blocks": 38,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/systematic-debugging/defense-in-depth.md",
+      "source_preserved": true,
+      "translated_blocks": 48,
+      "skipped_blocks": [
+        {
+          "id": "dedc061ecc43b243",
+          "kind": "list",
+          "reason": "列表项仅含代码调用标识符，没有英语自然语言。"
+        },
+        {
+          "id": "b293589a1b76155d",
+          "kind": "list",
+          "reason": "列表项仅含代码调用标识符，没有英语自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/systematic-debugging/root-cause-tracing.md",
+      "source_preserved": true,
+      "translated_blocks": 64,
+      "skipped_blocks": [
+        {
+          "id": "e6bd37e06721020c",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "6d6d6d0173d55b4f",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "6f4745f7742216f9",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "8a1e9db598a6464a",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/systematic-debugging/test-academic.md",
+      "source_preserved": true,
+      "translated_blocks": 10,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/systematic-debugging/test-pressure-1.md",
+      "source_preserved": true,
+      "translated_blocks": 41,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/systematic-debugging/test-pressure-2.md",
+      "source_preserved": true,
+      "translated_blocks": 49,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/systematic-debugging/test-pressure-3.md",
+      "source_preserved": true,
+      "translated_blocks": 48,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/test-driven-development/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 120,
+      "skipped_blocks": [
+        {
+          "id": "798c82490b03637d",
+          "kind": "paragraph",
+          "reason": "纯 HTML 标签，没有需要翻译的自然语言。"
+        },
+        {
+          "id": "7785c34048e7beab",
+          "kind": "paragraph",
+          "reason": "纯 HTML 标签，没有需要翻译的自然语言。"
+        },
+        {
+          "id": "296a854ab810648c",
+          "kind": "code",
+          "reason": "代码围栏仅含示例代码或命令，没有英语自然语言。"
+        },
+        {
+          "id": "b9322ad261992ec3",
+          "kind": "paragraph",
+          "reason": "纯 HTML 标签，没有需要翻译的自然语言。"
+        },
+        {
+          "id": "bc8857fa48d28264",
+          "kind": "code",
+          "reason": "代码围栏仅含示例代码或命令，没有英语自然语言。"
+        },
+        {
+          "id": "ca558baed24062ef",
+          "kind": "paragraph",
+          "reason": "纯 HTML 标签，没有需要翻译的自然语言。"
+        },
+        {
+          "id": "a9359acd5960b4a6",
+          "kind": "code",
+          "reason": "代码围栏仅含示例代码或命令，没有英语自然语言。"
+        },
+        {
+          "id": "5abcf675a7348ef9",
+          "kind": "code",
+          "reason": "代码围栏仅含示例代码或命令，没有英语自然语言。"
+        },
+        {
+          "id": "1b47acbe833abce8",
+          "kind": "code",
+          "reason": "代码围栏仅含示例代码或命令，没有英语自然语言。"
+        },
+        {
+          "id": "cf4298046d006a4f",
+          "kind": "code",
+          "reason": "代码围栏仅含示例代码或命令，没有英语自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/test-driven-development/writing-good-tests.md",
+      "source_preserved": true,
+      "translated_blocks": 51,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/using-git-worktrees/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 49,
+      "skipped_blocks": [
+        {
+          "id": "2a06dda7f064df4c",
+          "kind": "code",
+          "reason": "此代码块仅包含命令、路径和标识，没有英语自然语言。"
+        },
+        {
+          "id": "e36bffbff2f520f7",
+          "kind": "code",
+          "reason": "此代码块仅包含命令、路径和标识，没有英语自然语言。"
+        },
+        {
+          "id": "34b0ccb11c4ef162",
+          "kind": "code",
+          "reason": "此代码块仅包含命令、路径和标识，没有英语自然语言。"
+        },
+        {
+          "id": "0f05f78701422bae",
+          "kind": "code",
+          "reason": "此代码块仅包含命令、路径和标识，没有英语自然语言。"
+        },
+        {
+          "id": "db8365a890608193",
+          "kind": "code",
+          "reason": "此代码块仅包含命令、路径和标识，没有英语自然语言。"
+        },
+        {
+          "id": "e8176dce57f30916",
+          "kind": "code",
+          "reason": "此代码块仅包含命令、路径和标识，没有英语自然语言。"
+        },
+        {
+          "id": "f26cf56be26737eb",
+          "kind": "code",
+          "reason": "此代码块仅包含命令、路径和标识，没有英语自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/using-superpowers/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 20,
+      "skipped_blocks": [
+        {
+          "id": "642e368f02c06eeb",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "306b5357a5efcfd6",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "dc78d0a6289d12e9",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "e13efdba84ba51dc",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "7ddd6b728063208d",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "6ac238c29bd05046",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/using-superpowers/references/antigravity-tools.md",
+      "source_preserved": true,
+      "translated_blocks": 6,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/using-superpowers/references/claude-code-tools.md",
+      "source_preserved": true,
+      "translated_blocks": 6,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/using-superpowers/references/codex-tools.md",
+      "source_preserved": true,
+      "translated_blocks": 25,
+      "skipped_blocks": [
+        {
+          "id": "a7f6f9db1249b225",
+          "kind": "code",
+          "reason": "纯TOML功能开关，无自然语言。"
+        },
+        {
+          "id": "4d1e6023d23c2712",
+          "kind": "code",
+          "reason": "纯TOML默认模型配置，无自然语言。"
+        },
+        {
+          "id": "b80bfd1651a1a5e8",
+          "kind": "code",
+          "reason": "纯git命令，无自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/using-superpowers/references/gemini-tools.md",
+      "source_preserved": true,
+      "translated_blocks": 18,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/using-superpowers/references/hermes-tools.md",
+      "source_preserved": true,
+      "translated_blocks": 15,
+      "skipped_blocks": [
+        {
+          "id": "fbd91ce8f6fb2fe6",
+          "kind": "code",
+          "reason": "仅为工具调用示例，无英文自然语言。"
+        },
+        {
+          "id": "1a12372fa7d6e83b",
+          "kind": "code",
+          "reason": "仅为回退读取命令，无英文自然语言。"
+        },
+        {
+          "id": "9c3d27a1f5139f01",
+          "kind": "code",
+          "reason": "仅为子代理调用示例，无英文自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/using-superpowers/references/muse-tools.md",
+      "source_preserved": true,
+      "translated_blocks": 11,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/using-superpowers/references/pi-tools.md",
+      "source_preserved": true,
+      "translated_blocks": 7,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/verification-before-completion/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 47,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/writing-plans/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 59,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/writing-skills/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 218,
+      "skipped_blocks": [
+        {
+          "id": "0d239463f75dd196",
+          "kind": "code",
+          "reason": "仅为文件名或机器标识，无自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/writing-skills/references/CLAUDE_MD_TESTING.md",
+      "source_preserved": true,
+      "translated_blocks": 61,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/writing-skills/references/anthropic-best-practices.md",
+      "source_preserved": true,
+      "translated_blocks": 366,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/writing-skills/references/bulletproofing.md",
+      "source_preserved": true,
+      "translated_blocks": 23,
+      "skipped_blocks": [
+        {
+          "id": "d5aba1f20fe737b7",
+          "kind": "paragraph",
+          "reason": "纯 HTML 标签，没有需要翻译的自然语言。"
+        },
+        {
+          "id": "db010d86b1ed17ef",
+          "kind": "paragraph",
+          "reason": "纯 HTML 标签，没有需要翻译的自然语言。"
+        },
+        {
+          "id": "cf2f5d1e1ec019a3",
+          "kind": "paragraph",
+          "reason": "纯 HTML 标签，没有需要翻译的自然语言。"
+        },
+        {
+          "id": "4c9bd31820bf58ab",
+          "kind": "paragraph",
+          "reason": "纯 HTML 标签，没有需要翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/writing-skills/references/discovery.md",
+      "source_preserved": true,
+      "translated_blocks": 76,
+      "skipped_blocks": [
+        {
+          "id": "82bfdaa628b9b63c",
+          "kind": "list",
+          "reason": "列表项仅含英文技能标识符，没有英语自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/writing-skills/references/flowcharts.md",
+      "source_preserved": true,
+      "translated_blocks": 16,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/writing-skills/references/persuasion-principles.md",
+      "source_preserved": true,
+      "translated_blocks": 121,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/skills/writing-skills/references/testing-skills-with-subagents.md",
+      "source_preserved": true,
+      "translated_blocks": 172,
+      "skipped_blocks": [
+        {
+          "id": "924d4c8e1c688fd4",
+          "kind": "paragraph",
+          "reason": "纯 HTML 标签，没有需要翻译的自然语言。"
+        },
+        {
+          "id": "181188a582a86adb",
+          "kind": "paragraph",
+          "reason": "纯 HTML 标签，没有需要翻译的自然语言。"
+        },
+        {
+          "id": "65540ce62dbd9c9d",
+          "kind": "paragraph",
+          "reason": "纯 HTML 标签，没有需要翻译的自然语言。"
+        },
+        {
+          "id": "0238fa3cd9c2bd85",
+          "kind": "paragraph",
+          "reason": "纯 HTML 标签，没有需要翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "superpowers/tests/claude-code/README.md",
+      "source_preserved": true,
+      "translated_blocks": 92,
+      "skipped_blocks": [
+        {
+          "id": "eff2b9e748908d96",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "10e9bed419cd1f3c",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "6022a004dd5cdf27",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "85c4ca3f1227e174",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "cf63d38f98fdb627",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/README.md",
+      "source_preserved": true,
+      "translated_blocks": 71,
+      "skipped_blocks": [
+        {
+          "id": "a56e4c0ecdb5ec16",
+          "kind": "code",
+          "reason": "代码块只有安装命令，没有需要翻译的自然语言。"
+        },
+        {
+          "id": "2660293f8ee11357",
+          "kind": "code",
+          "reason": "代码块只有插件安装命令，没有需要翻译的自然语言。"
+        },
+        {
+          "id": "28811698992bb3b9",
+          "kind": "paragraph",
+          "reason": "只有 HTML 结束标签，无自然语言。"
+        },
+        {
+          "id": "f3258c33d7756a78",
+          "kind": "paragraph",
+          "reason": "仅包含 HTML 结构结束标签，没有英文自然语言。"
+        },
+        {
+          "id": "662ae9b7524c3a28",
+          "kind": "paragraph",
+          "reason": "仅包含 HTML 结构结束标签，没有英文自然语言。"
+        },
+        {
+          "id": "e700dc2b5b85a7a2",
+          "kind": "paragraph",
+          "reason": "仅包含 HTML 结构结束标签，没有英文自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/agents/comment-sicko.md",
+      "source_preserved": true,
+      "translated_blocks": 17,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/agents/poteto-agent.md",
+      "source_preserved": true,
+      "translated_blocks": 3,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/automations/benny/FOR_AGENTS.md",
+      "source_preserved": true,
+      "translated_blocks": 59,
+      "skipped_blocks": [
+        {
+          "id": "a2fda49ee51601c2",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/automations/benny/README.md",
+      "source_preserved": true,
+      "translated_blocks": 10,
+      "skipped_blocks": [
+        {
+          "id": "dd409d7ca030ba07",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 195,
+      "skipped_blocks": [
+        {
+          "id": "f0d30d6aeee6468d",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/automations/benny/skills/reproduce-and-fix-issues/references/control-adapter.md",
+      "source_preserved": true,
+      "translated_blocks": 111,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/automations/benny/skills/reproduce-and-fix-issues/references/feature-map.example.md",
+      "source_preserved": true,
+      "translated_blocks": 116,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/automations/benny/skills/reproduce-and-fix-issues/references/verify-existing-fix.md",
+      "source_preserved": true,
+      "translated_blocks": 59,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/automations/benny/skills/setup-benny/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 161,
+      "skipped_blocks": [
+        {
+          "id": "2ef00133fd60c4b3",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "d62de72b7957e225",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "67d74a6ab3206758",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "766f7bf4fa7487f6",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "1012bfea1a4be54f",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "b07f2c09285c6aa5",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "c0797a9f76ba1389",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "ca97e6d3383ccc76",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "ab9651b44b93fe52",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "f7dd6668123ea6eb",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "40a182c5a29312dc",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "17eb3314c9082933",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "530ebf972de4b0cd",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/automations/benny/skills/triage-issue-reports/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 153,
+      "skipped_blocks": [
+        {
+          "id": "c466c7b839eefbd4",
+          "kind": "code",
+          "reason": "仅为可执行命令、URL、路径或机器字段标识，无需翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/automations/benny/skills/triage-issue-reports/references/routing.example.md",
+      "source_preserved": true,
+      "translated_blocks": 10,
+      "skipped_blocks": [
+        {
+          "id": "c99b543728f3780b",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/automations/benny/templates/reproduce-automation-prompt.md",
+      "source_preserved": true,
+      "translated_blocks": 11,
+      "skipped_blocks": [
+        {
+          "id": "2feb542dd89ba967",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "8dd81afcd9452c62",
+          "kind": "code",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/automations/benny/templates/triage-automation-prompt.md",
+      "source_preserved": true,
+      "translated_blocks": 11,
+      "skipped_blocks": [
+        {
+          "id": "48cda6236d34af3f",
+          "kind": "code",
+          "reason": "仅为配置路径占位符，无自然语言。"
+        },
+        {
+          "id": "dc2f599eb21120a8",
+          "kind": "code",
+          "reason": "仅为 JSON 机器字段和占位符，无自然语言。"
+        },
+        {
+          "id": "186c09e13ac2a30c",
+          "kind": "code",
+          "reason": "仅为分诊标记，无自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/docs/guide/01-setup.md",
+      "source_preserved": true,
+      "translated_blocks": 29,
+      "skipped_blocks": [
+        {
+          "id": "97bb4324f9446d06",
+          "kind": "code",
+          "reason": "仅为安装命令，无英文自然语言。"
+        },
+        {
+          "id": "f08fb2e05d3a235f",
+          "kind": "code",
+          "reason": "仅为设置命令，无英文自然语言。"
+        },
+        {
+          "id": "c6378c23355e7919",
+          "kind": "code",
+          "reason": "仅为示例提示命令，除机器标识外无英文说明。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/docs/guide/02-poteto-mode.md",
+      "source_preserved": true,
+      "translated_blocks": 53,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/docs/guide/03-understand.md",
+      "source_preserved": true,
+      "translated_blocks": 32,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/docs/guide/04-design.md",
+      "source_preserved": true,
+      "translated_blocks": 53,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/docs/guide/05-build-and-clean.md",
+      "source_preserved": true,
+      "translated_blocks": 33,
+      "skipped_blocks": [
+        {
+          "id": "b034d8f6d3abf428",
+          "kind": "code",
+          "reason": "代码块仅含 TDD 技能调用命令，没有英语自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/docs/guide/06-verify-and-ship.md",
+      "source_preserved": true,
+      "translated_blocks": 73,
+      "skipped_blocks": [
+        {
+          "id": "59decddec6d3f4ce",
+          "kind": "code",
+          "reason": "只有技能调用命令，无自然语言。"
+        },
+        {
+          "id": "4e6447e4ffff2346",
+          "kind": "code",
+          "reason": "只有技能调用命令，无自然语言。"
+        },
+        {
+          "id": "731b32e542994b1e",
+          "kind": "code",
+          "reason": "只有技能调用命令，无自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/docs/guide/07-overnight.md",
+      "source_preserved": true,
+      "translated_blocks": 55,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/docs/guide/08-principles.md",
+      "source_preserved": true,
+      "translated_blocks": 43,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/docs/guide/09-make-it-yours.md",
+      "source_preserved": true,
+      "translated_blocks": 43,
+      "skipped_blocks": [
+        {
+          "id": "8ee5bc1e5267fed0",
+          "kind": "code",
+          "reason": "代码块仅含 `/automate-me` 调用命令，没有英语自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/docs/guide/10-recipes-and-pitfalls.md",
+      "source_preserved": true,
+      "translated_blocks": 78,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/docs/guide/README.md",
+      "source_preserved": true,
+      "translated_blocks": 22,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/docs/harness/claude-code.md",
+      "source_preserved": true,
+      "translated_blocks": 18,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/architect/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 44,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/architect/references/design-red-flags.md",
+      "source_preserved": true,
+      "translated_blocks": 30,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/architect/references/rationale-template.md",
+      "source_preserved": true,
+      "translated_blocks": 18,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/architect/references/runner-prompt.md",
+      "source_preserved": true,
+      "translated_blocks": 15,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/arena/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 24,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/automate-me/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 63,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/benchmark-checklist/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 24,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/blast-radius/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 30,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/bro/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 2,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/correct/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 16,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/create-formal-verification-skill/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 23,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/create-verification-skill/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 25,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/create-verification-skill/references/feature-map-example/README.md",
+      "source_preserved": true,
+      "translated_blocks": 34,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/create-verification-skill/references/feature-map-example/create-note.md",
+      "source_preserved": true,
+      "translated_blocks": 28,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/create-verification-skill/references/feature-map-example/search.md",
+      "source_preserved": true,
+      "translated_blocks": 34,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/figure-it-out/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 28,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/how/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 17,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/how/references/explainer-prompt.md",
+      "source_preserved": true,
+      "translated_blocks": 32,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/how/references/explorer-prompt.md",
+      "source_preserved": true,
+      "translated_blocks": 18,
+      "skipped_blocks": [
+        {
+          "id": "1263ff88b0b639b4",
+          "kind": "quote",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "1a99011201f32fed",
+          "kind": "paragraph",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/in-your-own-words/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 2,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/interrogate/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 15,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/ketchup-video/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 13,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/ketchup/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 20,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/maintain-formal-verification-skill/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 34,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/maintain-verification-skill/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 19,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/make-bot-ui/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 41,
+      "skipped_blocks": [
+        {
+          "id": "7b50318457e589a3",
+          "kind": "list",
+          "reason": "仅为可执行命令、URL、路径或机器字段标识，无需翻译的自然语言。"
+        },
+        {
+          "id": "64a2d6792801260b",
+          "kind": "code",
+          "reason": "仅为可执行命令、URL、路径或机器字段标识，无需翻译的自然语言。"
+        },
+        {
+          "id": "deecc85341215c55",
+          "kind": "list",
+          "reason": "仅为可执行命令、URL、路径或机器字段标识，无需翻译的自然语言。"
+        },
+        {
+          "id": "92a7fe5d68c8a5fa",
+          "kind": "list",
+          "reason": "仅为可执行命令、URL、路径或机器字段标识，无需翻译的自然语言。"
+        },
+        {
+          "id": "000da86455b62cd6",
+          "kind": "list",
+          "reason": "仅为可执行命令、URL、路径或机器字段标识，无需翻译的自然语言。"
+        },
+        {
+          "id": "c989817e90c053b5",
+          "kind": "list",
+          "reason": "仅为可执行命令、URL、路径或机器字段标识，无需翻译的自然语言。"
+        },
+        {
+          "id": "0f1aceed263e4990",
+          "kind": "list",
+          "reason": "仅为可执行命令、URL、路径或机器字段标识，无需翻译的自然语言。"
+        },
+        {
+          "id": "5df8d0c5abe247e2",
+          "kind": "code",
+          "reason": "仅为可执行命令、URL、路径或机器字段标识，无需翻译的自然语言。"
+        },
+        {
+          "id": "7523f61c312e6085",
+          "kind": "code",
+          "reason": "仅为可执行命令、URL、路径或机器字段标识，无需翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/no-comments/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 13,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-help/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 71,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-help/references/prompting.md",
+      "source_preserved": true,
+      "translated_blocks": 36,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-help/references/recipes.md",
+      "source_preserved": true,
+      "translated_blocks": 40,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 105,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/authoring-a-skill.md",
+      "source_preserved": true,
+      "translated_blocks": 8,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/autonomous-run.md",
+      "source_preserved": true,
+      "translated_blocks": 9,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/autopilot-full.md",
+      "source_preserved": true,
+      "translated_blocks": 16,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/autopilot-stack.md",
+      "source_preserved": true,
+      "translated_blocks": 5,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/babysit.md",
+      "source_preserved": true,
+      "translated_blocks": 16,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/bug-fix.md",
+      "source_preserved": true,
+      "translated_blocks": 10,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/eval.md",
+      "source_preserved": true,
+      "translated_blocks": 19,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/feature.md",
+      "source_preserved": true,
+      "translated_blocks": 16,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/hillclimb.md",
+      "source_preserved": true,
+      "translated_blocks": 16,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/investigation.md",
+      "source_preserved": true,
+      "translated_blocks": 9,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/multi-phase-plan.md",
+      "source_preserved": true,
+      "translated_blocks": 13,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/opening-a-pr.md",
+      "source_preserved": true,
+      "translated_blocks": 20,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/orchestrate.md",
+      "source_preserved": true,
+      "translated_blocks": 18,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/pause-safely.md",
+      "source_preserved": true,
+      "translated_blocks": 7,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/perf-issue.md",
+      "source_preserved": true,
+      "translated_blocks": 18,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/prototype.md",
+      "source_preserved": true,
+      "translated_blocks": 10,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/refactoring.md",
+      "source_preserved": true,
+      "translated_blocks": 12,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/runtime-forensics.md",
+      "source_preserved": true,
+      "translated_blocks": 8,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/session-pickup.md",
+      "source_preserved": true,
+      "translated_blocks": 8,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/shipping.md",
+      "source_preserved": true,
+      "translated_blocks": 9,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/trace-forensics.md",
+      "source_preserved": true,
+      "translated_blocks": 10,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/visual-parity.md",
+      "source_preserved": true,
+      "translated_blocks": 8,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/playbooks/worktree-cleanup.md",
+      "source_preserved": true,
+      "translated_blocks": 9,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/poteto-mode/references/bugbot-triage.md",
+      "source_preserved": true,
+      "translated_blocks": 76,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-attack-the-premise/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 11,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-boundary-discipline/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 22,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-build-the-lever/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 13,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-encode-lessons-in-structure/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 4,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-exhaust-the-design-space/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 3,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-experience-first/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 10,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-explain-the-number/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 9,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-fix-root-causes/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 13,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-foundational-thinking/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 9,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-guard-the-context-window/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 5,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-laziness-protocol/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 4,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-make-operations-idempotent/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 11,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 7,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-minimize-reader-load/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 10,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-model-the-domain/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 14,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-never-block-on-the-human/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 8,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-outcome-oriented-execution/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 12,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-prove-it-works/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 11,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-redesign-from-first-principles/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 8,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-separate-before-serializing-shared-state/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 8,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-sequence-verifiable-units/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 7,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-subtract-before-you-add/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 10,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-test-behavior-not-implementation/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 9,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/principle-type-system-discipline/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 6,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/recall/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 20,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/reflect/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 33,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/reflect/references/divergent-reviewer.md",
+      "source_preserved": true,
+      "translated_blocks": 25,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/reflect/references/judgment-reviewer.md",
+      "source_preserved": true,
+      "translated_blocks": 25,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/reflect/references/synthesizer.md",
+      "source_preserved": true,
+      "translated_blocks": 35,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/reflect/references/tooling-reviewer.md",
+      "source_preserved": true,
+      "translated_blocks": 33,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/setup-pstack/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 27,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/sharpen/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 8,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/show-me-your-work/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 42,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 45,
+      "skipped_blocks": [
+        {
+          "id": "08e0f81b19e097d3",
+          "kind": "code",
+          "reason": "仅为可执行命令、URL、路径或机器字段标识，无需翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/references/render.md",
+      "source_preserved": true,
+      "translated_blocks": 6,
+      "skipped_blocks": [
+        {
+          "id": "7d5171ba8ecca031",
+          "kind": "code",
+          "reason": "仅为 CSS 变量、颜色值及样式代码，无自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/Counter/report.md",
+      "source_preserved": true,
+      "translated_blocks": 4,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/CounterAction/report.md",
+      "source_preserved": true,
+      "translated_blocks": 13,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/CounterDeadlock/report.md",
+      "source_preserved": true,
+      "translated_blocks": 10,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/CounterFan/report.md",
+      "source_preserved": true,
+      "translated_blocks": 9,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/CounterGuard/report.md",
+      "source_preserved": true,
+      "translated_blocks": 7,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/CounterInitPast/report.md",
+      "source_preserved": true,
+      "translated_blocks": 4,
+      "skipped_blocks": [
+        {
+          "id": "d0df01a182084c6a",
+          "kind": "heading",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "c1c2fae572c3bd72",
+          "kind": "paragraph",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/CounterInitPastHolds/report.md",
+      "source_preserved": true,
+      "translated_blocks": 4,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/CounterInstance/report.md",
+      "source_preserved": true,
+      "translated_blocks": 9,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/CounterJump/report.md",
+      "source_preserved": true,
+      "translated_blocks": 8,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/CounterLoop/report.md",
+      "source_preserved": true,
+      "translated_blocks": 5,
+      "skipped_blocks": [
+        {
+          "id": "c0daa5423bff9c19",
+          "kind": "heading",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "0b9ae9e80fbb8761",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "72667874837a8ee7",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "932555919d06c9d2",
+          "kind": "paragraph",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/CounterOrder/report.md",
+      "source_preserved": true,
+      "translated_blocks": 6,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/CounterRules/report.md",
+      "source_preserved": true,
+      "translated_blocks": 14,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/CounterStart/report.md",
+      "source_preserved": true,
+      "translated_blocks": 6,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/CounterStop/report.md",
+      "source_preserved": true,
+      "translated_blocks": 4,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/CounterTie/report.md",
+      "source_preserved": true,
+      "translated_blocks": 8,
+      "skipped_blocks": [
+        {
+          "id": "da95c57cab4a54a6",
+          "kind": "heading",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "a2f2e8f731f1c806",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "71e0d3d78ea4f979",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "73f61c468016548a",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "223e1e1f3faff76a",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "7a81707730606fb1",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "cbac7b0cd8e4fcf8",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "835d7451c7edab32",
+          "kind": "list",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        },
+        {
+          "id": "0fc6e9c2bc5a4a9a",
+          "kind": "paragraph",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/CounterTieInGraph/report.md",
+      "source_preserved": true,
+      "translated_blocks": 7,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/CounterView/report.md",
+      "source_preserved": true,
+      "translated_blocks": 17,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/DieHard/report.md",
+      "source_preserved": true,
+      "translated_blocks": 13,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/FirstRule/report.md",
+      "source_preserved": true,
+      "translated_blocks": 16,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/HiddenClock/report.md",
+      "source_preserved": true,
+      "translated_blocks": 6,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/Login/report.md",
+      "source_preserved": true,
+      "translated_blocks": 4,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/LoginGuarded/report.md",
+      "source_preserved": true,
+      "translated_blocks": 3,
+      "skipped_blocks": [
+        {
+          "id": "40e3f855ce07037b",
+          "kind": "heading",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/LoginParallel/report.md",
+      "source_preserved": true,
+      "translated_blocks": 12,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/MediaPlayer/report.md",
+      "source_preserved": true,
+      "translated_blocks": 8,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/MediaPlayerFixed/report.md",
+      "source_preserved": true,
+      "translated_blocks": 4,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/MediaPlayerProps/report.md",
+      "source_preserved": true,
+      "translated_blocks": 11,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/PickWorker/report.md",
+      "source_preserved": true,
+      "translated_blocks": 4,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/Shadow/report.md",
+      "source_preserved": true,
+      "translated_blocks": 3,
+      "skipped_blocks": [
+        {
+          "id": "552357dd649a7d24",
+          "kind": "heading",
+          "reason": "此块仅含可执行代码、配置、路径或机器标识，没有可翻译的自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/SpacedNames/report.md",
+      "source_preserved": true,
+      "translated_blocks": 10,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/TwoPhase/report.md",
+      "source_preserved": true,
+      "translated_blocks": 12,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/TwoPhaseFixed/report.md",
+      "source_preserved": true,
+      "translated_blocks": 4,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/TypeGuard/report.md",
+      "source_preserved": true,
+      "translated_blocks": 9,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/statechart/scripts/test/corpus/UserNoDeadlock/report.md",
+      "source_preserved": true,
+      "translated_blocks": 10,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/swarm/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 22,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/tdd/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 25,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/teach/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 11,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/technical-writing/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 71,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/typescript-best-practices/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 5,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/typescript-best-practices/references/patterns.md",
+      "source_preserved": true,
+      "translated_blocks": 71,
+      "skipped_blocks": [
+        {
+          "id": "c6ab49b615ae3476",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "104b6f18398d868c",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "160dba7f3a0c6035",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "1e1fdb515a790685",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "5f95188457346f06",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/unslop/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 40,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/why/SKILL.md",
+      "source_preserved": true,
+      "translated_blocks": 58,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/why/references/epistemics.md",
+      "source_preserved": true,
+      "translated_blocks": 38,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/why/references/investigator-prompt.md",
+      "source_preserved": true,
+      "translated_blocks": 50,
+      "skipped_blocks": [
+        {
+          "id": "2fd8333bd09da956",
+          "kind": "quote",
+          "reason": "该块仅含待填写的模板占位符，没有英语自然语言。"
+        },
+        {
+          "id": "c118f28228bb8e84",
+          "kind": "paragraph",
+          "reason": "该块仅含待填写的模板占位符，没有英语自然语言。"
+        },
+        {
+          "id": "62dc1bb41383b539",
+          "kind": "paragraph",
+          "reason": "该块仅含待填写的模板占位符，没有英语自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/why/references/source-playbook.md",
+      "source_preserved": true,
+      "translated_blocks": 5,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/why/references/sources/code-archaeology.md",
+      "source_preserved": true,
+      "translated_blocks": 16,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/why/references/sources/databricks.md",
+      "source_preserved": true,
+      "translated_blocks": 45,
+      "skipped_blocks": [
+        {
+          "id": "b3bf8257847df18a",
+          "kind": "code",
+          "reason": "仅含只读 SQL 查询示例，无英文自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/why/references/sources/datadog.md",
+      "source_preserved": true,
+      "translated_blocks": 43,
+      "skipped_blocks": [
+        {
+          "id": "6c8efecaf0a89280",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "3f3b276afc85347d",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "c578c69c773a567f",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "5939ddaa97c68fc9",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "2c13da67febe4832",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        },
+        {
+          "id": "3c6711476eee8831",
+          "kind": "code",
+          "reason": "仅包含可执行代码或机器标识，没有英文自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/why/references/sources/incident-postmortem.md",
+      "source_preserved": true,
+      "translated_blocks": 4,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/why/references/sources/linear.md",
+      "source_preserved": true,
+      "translated_blocks": 36,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/why/references/sources/notion.md",
+      "source_preserved": true,
+      "translated_blocks": 43,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/why/references/sources/sentry.md",
+      "source_preserved": true,
+      "translated_blocks": 29,
+      "skipped_blocks": [
+        {
+          "id": "eab8c67d57a96fb6",
+          "kind": "code",
+          "reason": "此块仅包含两个 MCP 工具名）。"
+        },
+        {
+          "id": "0846638b04fd7a86",
+          "kind": "code",
+          "reason": "此块仅包含 a single MCP 工具名，没有英语自然语言。"
+        }
+      ],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/why/references/sources/slack.md",
+      "source_preserved": true,
+      "translated_blocks": 12,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    },
+    {
+      "path": "pstack/skills/why/references/synthesizer-prompt.md",
+      "source_preserved": true,
+      "translated_blocks": 76,
+      "skipped_blocks": [],
+      "missing_blocks": 0
+    }
+  ]
+}

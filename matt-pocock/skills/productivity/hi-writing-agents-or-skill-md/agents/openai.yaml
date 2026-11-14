@@ -1,0 +1,3 @@
+interface:
+  display_name: "Hi Writing Agents or SKILL Markdown"
+  short_description: "Write documents agents consume"

@@ -1,0 +1,2 @@
+display_name: "迁移到 Shoehorn"
+short_description: "将测试中的类型断言替换为 Shoehorn"
